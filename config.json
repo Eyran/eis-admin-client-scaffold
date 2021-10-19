@@ -1,0 +1,31 @@
+{
+  "file_config": [
+    {
+      "templatePath": "./template/view",
+      "action": [
+        {
+          "path" : "./test/view/user",
+          "model_name" : "User"
+        },
+        {
+          "path" : "./test/view/role",
+          "model_name" : "Role"
+        }
+      ]
+    },
+    {
+      "templatePath": "./template/router",
+      "action": [
+        {
+          "path" : "./test/router",
+          "model_name" : "user"
+        },
+        {
+          "path" : "./test/router",
+          "model_name" : "role"
+        }
+      ]
+    }
+  ],
+  "default_replace_char": "template"
+}
